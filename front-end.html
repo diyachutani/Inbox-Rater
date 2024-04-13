@@ -21,68 +21,19 @@
   <main>
     <section id="inbox">
       <h2>Inbox</h2>
-      <div id="action-buttons">
-        <button id="mark-important-btn">Mark as Important</button>
-        <button id="archive-btn">Archive</button>
-        <button id="delete-btn">Delete</button>
-      </div>
-
-      <div id="sorting-filtering">
-        <label for="sort-select">Sort by:</label>
-        <select id="sort-select">
-          <option value="date">Date</option>
-          <option value="sender">Sender</option>
-          <option value="rating">Rating</option>
-        </select>
-        <label for="filter-input">Filter:</label>
-        <input type="text" id="filter-input" placeholder="Search...">
-      </div>
-
-      <div id="pagination">
-        <button id="prev-page-btn">Previous</button>
-        <span id="page-info">Page 1 of 3</span>
-        <button id="next-page-btn">Next</button>
-      </div>
-
-      <div class="email-list">
-        <!-- Email items will be dynamically added here -->
-        <div class="email-item">
-          <div class="email-metadata">
-            <div class="sender">john@example.com</div>
-            <div class="subject">Meeting Reminder</div>
-            <div class="date">2024-04-15</div>
-            <div class="rating">Rating: 4</div>
-          </div>
-          <div class="email-content-preview">This is a meeting reminder email.</div>
-        </div>
-        <!-- Add more email items as needed -->
-      </div>
-      <div id="email-detail" style="display: none;">
-        <div class="email-metadata">
-          <div class="sender">john@example.com</div>
-          <div class="subject">Meeting Reminder</div>
-          <div class="date">2024-04-15</div>
-          <div class="rating">Rating: 4</div>
-        </div>
-        <div class="email-content">This is a meeting reminder email. Details of the email will be displayed here.</div>
-      </div>
-    </section>
-
-    <section id="email-detail" style="display: none;">
-      <h2>Email Detail</h2>
-      <div id="email-content">
-        <!-- Display email content here -->
-      </div>
-    </section>
+        <!-- Inbox content will be displayed here -->
+        <iframe src="login.html" width="100%" height="600px" frameborder="0"></iframe>
 
     <section id="settings" style="display: none;">
       <h2>Settings</h2>
       <!-- Settings form and options will be displayed here -->
+      <iframe src="settings.html" width="100%" height="500px" frameborder="0"></iframe>
     </section>
 
     <section id="feedback" style="display: none;">
       <h2>Feedback</h2>
       <!-- Feedback form will be displayed here -->
+      <iframe src="feedback.html" width="100%" height="500px" frameborder="0"></iframe>
     </section>
   </main>
 

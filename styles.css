@@ -98,11 +98,25 @@ body {
   }
   
   #filter-search input[type="text"] {
-    width: 300px; /* Adjust width as needed */
     padding: 8px;
+    width: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 16px;
   }
+
+  /* .search-input {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+width: 300px; /* Adjust width as needed */
+    /* padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px; */ 
+
 
   #sorting-filtering select + label {
     margin-left: 300px;
