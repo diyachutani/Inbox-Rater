@@ -1,0 +1,204 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fcfa91;
+    color: #090909;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #0f0d0d;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  #inbox {
+    border: 1px solid #090909;
+    padding: 1rem;
+  }
+  
+  /* Action buttons */
+#action-buttons {
+    margin-bottom: 20px;
+  }
+  
+  #action-buttons {
+    margin-bottom: 20px;
+  }
+  
+  #action-buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #action-buttons button:hover {
+    background-color: #0056b3;
+  }
+
+ 
+/* Sorting and filtering options */
+#sorting-filtering {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #sorting-filtering label {
+    margin-right: 10px;
+  }
+  
+  #sorting-filtering select {
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  /* Filter/Search functionality */
+
+  #filter-search {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  #filter-search label {
+    margin-right: 10px;
+  }
+  
+  #filter-search input[type="text"] {
+    width: 300px; /* Adjust width as needed */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #sorting-filtering select + label {
+    margin-left: 300px;
+  }
+  
+  /* Sorting and filtering options */
+  /* #sorting-filtering {
+    margin-bottom: 20px;
+  }
+  
+  #sorting-filtering label {
+    margin-right: 10px;
+  }
+  
+  #sorting-filtering select,
+  #sorting-filtering input[type="text"] {
+    margin-right: 10px;
+  }
+  
+  /* Search functionality */
+  /* #search-functionality input[type="text"] {
+    width: 200px;
+    padding: 5px;
+  } */ 
+  
+  /* Pagination */
+  #pagination {
+    margin-bottom: 20px;
+  }
+  
+  #pagination button {
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  
+  #page-info {
+    margin-right: 10px;
+  }
+  
+  /* Email list */
+  .email-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .email-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .email-item:last-child {
+    border-bottom: none;
+  }
+  
+  .email-metadata {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .email-content-preview {
+    color: #555;
+  }
+
+  /* #email-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .email-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .email-item:hover {
+    background-color: #eaeaea;
+  }
+  
+  #email-detail {
+    border: 1px solid #030303;
+    padding: 1rem;
+  } */
+  
+  #settings,
+  #feedback {
+    border: 1px solid #080808;
+    padding: 1rem;
+  }
+  
+  footer {
+    background-color: #fcfa91;
+    color: #080808;
+    text-align: center;
+    padding: 1rem;
+  }
+  
